@@ -1,0 +1,20 @@
+{
+  "name": "softerize/phpoil",
+  "description": "Package for code generation using customizable templates.",
+  "keywords": ["generators"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oscar Dias",
+      "email": "oscar.dias@softerize.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Softerize\\PhpOil\\": "src/"
+    }
+  }
+}
